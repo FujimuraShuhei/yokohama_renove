@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  top: 0px;
+  width: 94%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.header__nav {
+  text-align: right;
+}
+
+.header__li {
+  margin-left: 24px;
+}
+
+.header__li_02 {
+  margin-left: 24px;
+  color: ;
+}
