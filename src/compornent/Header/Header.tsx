@@ -6,23 +6,23 @@ import styles from '../Header/Header.module.css';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <h1>
-        <Link href="#">
-          <Image
-            width={200}
-            height={100}
-            src="/header_logo.png"
-            alt="YOKOHAMA RENOVEのロゴ"
-          />
-        </Link>
-      </h1>
       <nav className={styles.header__nav}>
-        <ul className="flex justify-end">
+        <h1>
+          <Link href="#">
+            <Image
+              width={200}
+              height={100}
+              src="/header_logo.png"
+              alt="YOKOHAMA RENOVEのロゴ"
+            />
+          </Link>
+        </h1>
+        <ul className={styles.header__ul}>
           <li className={styles.header__li}>
             <Link href="#">ホーム</Link>
           </li>
           <li className={styles.header__li}>
-            <Link href="#">リノベの特徴</Link>
+            <Link href="./service">リノベの特徴</Link>
           </li>
           <li className={styles.header__li}>
             <Link href="#">私たちのお約束</Link>
