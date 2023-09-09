@@ -1,0 +1,62 @@
+.section_about {
+  padding: 104px 0;
+}
+.section_about_ttl {
+  padding-left: 80px;
+}
+.section_about h2 {
+  font-family: Futura;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8rem;
+}
+.section_about p {
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  font-family: Zen Kaku Gothic New;
+}
+
+.section_about_2columnBox {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #212121;
+  font-family: Zen Kaku Gothic New;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.75rem;
+}
+.section_about_textBox {
+  width: 640px;
+  padding-left: 80px;
+}
+.section_about_textBox h3 {
+  color: #212121;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.75rem;
+}
+
+.section_about_textBox p {
+  color: #0e4666;
+  font-family: Zen Kaku Gothic New;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin-top: 40px;
+  width: 475px;
+}
+
+.section_about_2columnBox_img {
+  border-radius: 2.5rem;
+}

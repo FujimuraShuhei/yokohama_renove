@@ -56,7 +56,6 @@ const Header = () => {
           <h1>RENOVE</h1>
         </div>
       </div>
-      ;
     </header>
   );
 };
