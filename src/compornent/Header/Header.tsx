@@ -14,6 +14,7 @@ const Header = () => {
               height={100}
               src="/header_logo.png"
               alt="YOKOHAMA RENOVEのロゴ"
+              unoptimized
             />
           </Link>
         </h1>
@@ -36,7 +37,7 @@ const Header = () => {
           <li className={styles.header__li_02}>
             <Link href="#">資料請求</Link>
           </li>
-          <li className={styles.header__li_02}>
+          <li className={styles.header__li_03}>
             <Link href="#">お問い合わせ</Link>
           </li>
         </ul>

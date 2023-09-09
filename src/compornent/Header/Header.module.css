@@ -66,11 +66,32 @@
   color: #212121;
 }
 
+.header__li_03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+  background: #ffec3f;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  cursor: pointer;
+  border: 1px solid #ffec3f;
+  transition: 0.3s all;
+  border-radius: 4px;
+  box-shadow: 6px 6px 23px -13px #c2c2c2;
+}
+
+.header__li_03:hover {
+  background: #fff;
+  color: #212121;
+}
+
 /* メインビジュアル */
 
 .mainvisual {
   width: 100vw;
-  height: 700px;
+  height: 100vh;
   background-image: url('/main_img.jpg');
   background-size: cover;
   background-position: center;
